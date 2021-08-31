@@ -1,11 +1,16 @@
 
-Whac-a-mole:
-1. setInterval(function(), milliseconds): calls the function() every milliseconds until clearInterval() is called
+2. Whac-a-mole:
+    1. setInterval(function(), milliseconds): calls the function() every milliseconds until clearInterval() is called
 
-2. addEventListener(type, function): every time the event of type happens, the function is called
+    2. addEventListener(type, function): every time the event of type happens, the function is called
 
-3. document.querySelector(selector) and document.querySelectorAll(selector) is used to select the first or all elements
-within the document(html file) that match the specified selector. Example: document.querySelector('.square') returns
-the first element of class (.) square from the html file. IDs etc are retrieved by '#id'.
+    3. document.querySelector(selector) and document.querySelectorAll(selector) is used to select the first or all elements
+    within the document(html file) that match the specified selector. Example: document.querySelector('.square') returns
+    the first element of class (.) square from the html file. IDs etc are retrieved by '#id'.
 
-4. classList.add adds a class, classList.remove removes a class from the classlist of an element
+    4. classList.add adds a class, classList.remove removes a class from the classlist of an element
+
+    5. => acts like a function, a => { do something with a} represents a function that takes a parameter 'a' and the function
+    consists of the block in {} 
+
+3. Connect Four
