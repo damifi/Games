@@ -1,0 +1,23 @@
+/*make the grid look like a grid */
+
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+/* each of the divs in the grid*/
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: blue;
+}
+
+.mouse {
+    background-color: red;
+}

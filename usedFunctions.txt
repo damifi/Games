@@ -1,3 +1,15 @@
+HTML: 
+
+1. tags:
+    div: used to divide a HTML file into sections, acts as a container for elements and can be styled with css and js with class or id attribute
+    span: similar to div but is an inline element
+    button: clickable button
+
+
+Javascript
+0. General:
+    1. class tags allow to pick specific classes later in javascript
+
 
 2. Whac-a-mole:
     1. setInterval(function(), milliseconds): calls the function() every milliseconds until clearInterval() is called
@@ -14,3 +26,10 @@
     consists of the block in {} 
 
 3. Connect Four
+    1. classList.contains checks if the class list contains an element
+
+
+4. Snake
+    1. pop() removes the last element of an array and returns it
+
+    2. unshift() adds one or more elements to the beginning of an array and returns the lenth of the array
